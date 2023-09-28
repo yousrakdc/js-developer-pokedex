@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
+    <link rel="shortcut icon" href="assets/imagens/favicon.png" type="image/x-icon">
 
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -30,6 +31,12 @@
             <!-- ..... Pokemons here ..... -->
         </ol>
 
+        <div id="detailsOverlay" class="details-overlay">
+            <div class="details-content">
+                
+            </div>
+        </div>
+
         <div class="pagination">
             <button id="loadMoreButton" type="button">
                 Load More
@@ -41,6 +48,7 @@
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script src="assets/js/details.js"></script>
 </body>
 
 </html>
